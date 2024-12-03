@@ -8,7 +8,7 @@ export function Main(){
         <main>    
             <div className="ContainerText">
                 <h1>NityNews Tech</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim repellat necessitatibus suscipit quod dolorum incidunt est autem doloribus odit, quidem perspiciatis consectetur quae dolor asperiores optio omnis neque amet architecto?</p>
+                <p>Loremin ipsum dolor sit amet consectetur adipisicing elit. Enim repellat necessitatibus suscipit quod dolorum incidunt est autem doloribus odit, quidem perspiciatis consectetur quae dolor asperiores optio omnis neque amet architecto?</p>
             </div>
             <div>
                <CardEmail />
