@@ -1,0 +1,16 @@
+main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75vh;
+    
+}
+main .ContainerText{
+    width: 400px;
+}
+
+main div img{
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
