@@ -1,6 +1,6 @@
 import logo from "./../../Img/Logo.png"
 import "./HeaderStyle.css"
-import  Menu  from "../Menu/Menu.Jsx";
+import  { Menu }  from "../Menu/Menu.Jsx";
 
 export function Header(){
     return(
