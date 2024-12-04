@@ -1,21 +1,20 @@
 header{
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    border-bottom: 1px  solid #000;
+    justify-content: space-around;
     padding: 0 50px 0 50px;
 }
 
 header img{
-    width: 130px;
+    width: 100px;
 }
 
 /* From Uiverse.io by satyamchaudharydev */ 
 button {
-    --primary-color: #003366;
+    --primary-color: #024385;
     --secondary-color: #fff;
-    --hover-color: #111;
+    --hover-color: #003366;
     --arrow-width: 10px;
     --arrow-stroke: 2px;
     box-sizing: border-box;

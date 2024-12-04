@@ -1,17 +1,28 @@
-import  Home  from "../../Img/Home2.jpg"
 import { CardEmail } from "../CardEmail/CardEmail"
 import "./MainStyle.css"
-
+import { Letter } from "../Letter/Letter"
 export function Main(){
+
     return(
         <>
-        <main>    
+        
+        <main>   
+            <div id="ContainerTop">
             <div className="ContainerText">
-                <h1>NityNews Tech</h1>
-                <p>Loremin ipsum dolor sit amet consectetur adipisicing elit. Enim repellat necessitatibus suscipit quod dolorum incidunt est autem doloribus odit, quidem perspiciatis consectetur quae dolor asperiores optio omnis neque amet architecto?</p>
+                <h1>Fique Conectado ao Futuro!</h1>
+                <p>
+                    Todos os dias, ás 7 horas e ponto enviamos para o seu e-mail as principais novidades do universo tecnológico lançamentos de produtos, ferramentas inovadoras, tendências de mercado, novas tecnologias, frameworks, IDEs e mais.
+                </p>
             </div>
             <div>
-               <CardEmail />
+               <Letter />
+            </div>
+            </div> 
+            <div id="ContainerBottom">
+                <CardEmail />
+            </div>
+            <div id="ContainerEnd">
+
             </div>
         </main>
         </>

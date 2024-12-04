@@ -3,9 +3,9 @@ import { Header } from "../../Components/Header/Header.jsx"
 
 export function Home(){
     return(
-        <>
+        <>          
           <Header/>
-          <Main/>
+          <Main/>       
         </>
     )
 }
