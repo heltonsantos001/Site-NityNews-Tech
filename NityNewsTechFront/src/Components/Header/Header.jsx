@@ -1,6 +1,7 @@
 import logo from "./../../Img/Logo.png"
 import "./HeaderStyle.css"
-import  { Menu }  from "../Menu/Menu";
+import { Menu } from "../Menu/Menu";
+
 
 export function Header(){
     return(
