@@ -2,7 +2,8 @@ import "./TitlePromptStyle.css"
 
 export function TitlePrompt(){
     return(
-        <div class="card">
+      <>
+<div class="card">
   <div class="wrap">
     <div class="terminal">
       <hgroup class="head">
@@ -52,12 +53,12 @@ export function TitlePrompt(){
       <div class="body">
         <pre class="pre">          <code>-&nbsp;</code>
           <code>npx&nbsp;</code>
-          <code class="cmd" data-cmd="Conecte ao Futuro!"></code>
+          <code class="cmd" data-cmd="create-react-app@latest"></code>
         </pre>
       </div>
     </div>
   </div>
 </div>
-
+</>
     )
 }

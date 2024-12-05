@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;    
+    height: 75vh;
 }
 
 
@@ -17,7 +18,9 @@ main .ContainerText h1 {
 
 #ContainerCard{
     width: 100%;
+    padding:  20px 0;
     display: flex;
+    background-color: #024385;
     justify-content: center;
     align-items: center;
     gap: 100px;
@@ -30,3 +33,21 @@ main .ContainerText h1 {
 #Boxtext h1{
     font-size: 20px;
 }
+
+#ContainerCardText{
+    width: 400px;
+  
+}
+
+#ContainerCardText h1{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E0E0E0;
+}
+
+#ContainerCardText p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E0E0E0;
+    
+}
+
