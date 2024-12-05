@@ -5,7 +5,6 @@ export function Header(){
     return(
         <header>
             <img src={logo} alt="" />
-            <Menu/>
             <button>
                 Sign up
                 <div class="arrow-wrapper">
