@@ -3,7 +3,7 @@ import "./MenuStyle.css";
 import gsap from "gsap";
 
 
-export function Menu(){
+export function MenuBar(){
 
   const { useRef, useState, useEffect, createRef } = React
 
