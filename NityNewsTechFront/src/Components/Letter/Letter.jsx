@@ -1,5 +1,5 @@
 import "./LetterStyle.css"
-import "../../../dist/output.css"
+import "./dist/output.css"
 
 export function Letter(){
     return(
