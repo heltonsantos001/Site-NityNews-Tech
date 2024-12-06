@@ -4,7 +4,6 @@
     isolation: isolate;
     position: relative;
     width: 24rem;
-    height: 10rem;
     text-align: justify;
     border-radius: 1rem;
     padding: 10px;
@@ -14,7 +13,13 @@
     --gradient: linear-gradient(to bottom, #2eadff, #3d83ff, #7e61ff);
     --color: #024385
   }
-  
+  @media (max-width: 750px) {
+    .notification{
+      width: 21rem;
+       
+    }
+
+  }
   .notification:before {
     position: absolute;
     content: "";

@@ -6,19 +6,28 @@
     height: 75vh;
 }
 
+@media (max-width: 750px) {
+    #ContainerTop{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        gap: 100px;
+        height: 100vh;
+    }
+
+  }
+
 
 main .ContainerText{
     font-family: Arial, Helvetica, sans-serif;
-    width: 400px;
 }
 
 main .ContainerText h1 {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #ContainerCard{
     width: 100%;
-    height: 500px;
     padding:  20px 0;
     display: flex;
     background-color: #024385;
@@ -26,6 +35,17 @@ main .ContainerText h1 {
     align-items: center;
     gap: 100px;
 }
+
+@media (max-width: 800px) {
+    #ContainerCard{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        gap: 100px;
+    }
+    
+  }
+
 
 #Boxtext{
     width: 400px;
@@ -54,3 +74,13 @@ main .ContainerText h1 {
     
 }
 
+#ContainerCardNoticias{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #013970;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
