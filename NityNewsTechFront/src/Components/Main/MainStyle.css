@@ -4,18 +4,20 @@
     justify-content: center;
     align-items: center; 
     gap: 40px; 
-    height: 500px;
-    padding: 50px 0;  
+    height: 450px;
 }
 
 
 #ContainerLetter{
     width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #ContainerLetter img{
-    height: 300px;
-    width: 600px;
-    border-radius: 55px 20px 55px 20px;
+    height: 250px;
+    width: 300px;
+    border-radius: 20px 55px 20px 55px;
     box-shadow: 10px 10px 50px 0.1px #cfcfcf;
 }
 
@@ -75,6 +77,7 @@ main .ContainerText h1 {
     justify-content: center;
     align-items: center;
 }
+
 @media (max-width: 750px) {
     #ContainerTop{
         flex-direction: column;
@@ -98,13 +101,19 @@ main .ContainerText h1 {
         
     }
 
+    #ContainerLetter img{
+        height: 200px;
+        width: 250px;
+    }
+    
+
 }
 
 @media (max-width: 500px) {
     #ContainerLetter{
         width: 300px;
     }
-    
+
   }
 
 @media (max-width: 800px) {
@@ -116,3 +125,15 @@ main .ContainerText h1 {
     }
     
   }
+
+  
+
+@media (max-width: 450px) {
+    #ContainerCardNoticias{
+        width: 100%;
+        padding: 100px 0;
+        background-color: #013970;
+        display: flex;
+        gap: 10px;
+  }
+}

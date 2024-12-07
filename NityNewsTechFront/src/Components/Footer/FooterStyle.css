@@ -4,7 +4,7 @@
 .footer {
   position: relative;
   width: 100;
-  background: #3586ff;
+  background: #0d0d0e;
   min-height: 100px;
   padding: 20px 50px;
   display: flex;
@@ -14,13 +14,20 @@
   box-sizing: border-box;
 }
 
-#ContainerTextFooter h1{
-    color:  #302f2f;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
+
+.TitleFooter {
+  color: #d4d4d6;
+  font-size: 23px;
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
 }
+
+@media (max-width: 450px) {
+  .TitleFooter {
+      font-size: 10px; 
+  }
+}
+
 
 .footer p {
   color: #fff;
@@ -29,12 +36,54 @@
   font-weight: 300;
 }
 
+.ContainerTextFooter h1{
+  color: #d4d4d6;
+  font-size: 23px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.ContainerFooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+
 #ContainerMainFooter{
   width: 100%;
   display: flex;
-  justify-content:  space-evenly;
+  justify-content:  center;
+  flex-wrap: wrap;
+  gap: 50px;
   align-items: center;
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 25px;
+}
+#ContainerRedes{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 50px;
+}
+.footer-about{
+  width: 200px;
+}
+
+.footer-about h1 p{
+  color: #fff;
+}
+.footer-about p{
+  color: #fff;
 }
 
 .wave {

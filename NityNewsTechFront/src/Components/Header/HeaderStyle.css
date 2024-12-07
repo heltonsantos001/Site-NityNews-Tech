@@ -2,7 +2,7 @@ header{
     height: 80px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     box-shadow: 0.5px 0.5px 70px 0.2px #eeeded;
 }
 
