@@ -1,8 +1,9 @@
 
 #ContainerTop{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;  
+    justify-content: center;
+    align-items: center; 
+    gap: 40px; 
     height: 500px;
     padding: 50px 0;  
 }
@@ -10,6 +11,12 @@
 
 #ContainerLetter{
     width: 350px;
+}
+#ContainerLetter img{
+    height: 300px;
+    width: 600px;
+    border-radius: 55px 20px 55px 20px;
+    box-shadow: 10px 10px 50px 0.1px #cfcfcf;
 }
 
 main .ContainerText{
@@ -73,7 +80,6 @@ main .ContainerText h1 {
         flex-direction: column;
         justify-content: center;
         align-items: center;    
-        gap: 50px;
         height: 600px;
 
     }

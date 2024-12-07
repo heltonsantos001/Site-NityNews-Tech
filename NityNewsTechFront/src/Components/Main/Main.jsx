@@ -8,6 +8,7 @@ import { CardNews } from "../CardNews/CardNews"
 import { useEffect, useState } from "react";
 import { MenuBar } from "../Menu/MenuBar";
 import { WidthFunction } from "../../Function/WidthFunction";
+import FotoHome from "./../../Img/Home2.jpg"
 
 export function Main(){
 
@@ -34,7 +35,7 @@ export function Main(){
             {MenuView && <MenuBar /> }
             <div id="ContainerTop">
             <div data-aos-duration="1500" data-aos="fade-up" id="ContainerLetter">
-                    <Letter className="text-xl font-bold text-gray-500" />
+                    <img src={FotoHome} alt="" />
                 </div>
                 <div data-aos-duration="1500" data-aos="fade-up" className="ContainerText">
                     <CardText className="text-xl font-bold text-gray-500" title={"Fique Conectado ao Futuro!"} text={"Todos os dias, ás 7 horas e ponto enviamos para o seu e-mail as principais novidades do universo tecnológico lançamentos de produtos, ferramentas inovadoras, tendências de mercado, novas tecnologias, frameworks, IDEs e mais."} />
