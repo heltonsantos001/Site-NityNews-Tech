@@ -16,7 +16,7 @@ export function CardEmail(){
     <div id="ContainerTextEmail">
         <h1>Inscrava-se</h1>
         <p>
-            Inscreva-se para receber no seu E-mail novidades da area da tecnologia 
+            para receber no seu E-mail novidades da area da tecnologia 
         </p>
     </div>
     <input placeholder="Digite seu E-mail" title="Digite seu E-mail" name="email" type="email" class="input_fieldEmail" />
