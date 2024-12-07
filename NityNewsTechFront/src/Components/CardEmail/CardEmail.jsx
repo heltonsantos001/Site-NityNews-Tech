@@ -19,8 +19,8 @@ export function CardEmail(){
             Inscreva-se para receber no seu E-mail novidades da area da tecnologia 
         </p>
     </div>
-    <input placeholder="Enter your e-mail" title="Enter your e-mail" name="email" type="email" class="input_fieldEmail" />
-    <button class="submit">Submit</button>
+    <input placeholder="Digite seu E-mail" title="Digite seu E-mail" name="email" type="email" class="input_fieldEmail" />
+    <button class="submit">Enviar</button>
   </form>
 </div>
             </>
