@@ -3,11 +3,11 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 0 50px 0 50px;
     box-shadow: 0.5px 0.5px 70px 0.2px #eeeded;
 }
 
 header img{
+    padding-left: 20px;
     width: 100px;
 }
 
@@ -23,14 +23,16 @@ button {
     border: 0;
     border-radius: 20px;
     color: var(--secondary-color);
-    padding: 1em 1.8em;
+    padding: 1em 0;
     background: var(--primary-color);
     display: flex;
+    justify-content: center;
     transition: 0.2s background;
     align-items: center;
     gap: 0.6em;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
+    text-align: center;
   }
   
   button .arrow-wrapper {
@@ -102,3 +104,5 @@ button {
   #logoText:hover::after, #logoText:hover::before {
     width: 100%;
   }
+
+  
