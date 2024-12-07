@@ -14,10 +14,10 @@ export function Letter(){
               <p class="text-xl sm:text-2xl font-semibold text-white font-serif">
                 Obrigado
               </p>
-              <p class="px-10 text-[15px] sm:text-[12px] text-white">
+              <p class="textLetter px-10 text-[15px] sm:text-[10px] text-white">
                   Por escolher a NityNews Tech!
               </p>
-              <p class="px-10 text-[10px] sm:text-[12px] text-white">
+              <p class="textLetter px-10 text-[10px] sm:text-[9px] text-white">
               Seja bem-vindo
               </p>
               <p class="font-sans text-[10px] text-white pt-5">ass: Nity</p>
