@@ -50,7 +50,7 @@ export function Main(){
                 <div data-aos-duration="1500" data-aos="fade-up" id="ContainerCardText">
                     <h1 className="text-xl font-bold text-gray-500">Seja perseguido, por boas notícias, claro!</h1>
                     <p className="text-xl font-bold text-gray-500">
-                   {width} Já pensou estar sempre atualizado sobre o mundo da tecnologia sem precisar procurar? A gente tem a solução perfeita, inscreva-se e deixe que as informações corram atrás de você. Pode relaxar, a gente garante que é uma perseguição saudável e cheia de novidades incríveis!
+                    Já pensou estar sempre atualizado sobre o mundo da tecnologia sem precisar procurar? A gente tem a solução perfeita, inscreva-se e deixe que as informações corram atrás de você. Pode relaxar, a gente garante que é uma perseguição saudável e cheia de novidades incríveis!
                 </p>    
             </div>
                 
