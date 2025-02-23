@@ -1,0 +1,139 @@
+
+#ContainerTop{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 40px; 
+    height: 450px;
+}
+
+
+#ContainerLetter{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ContainerLetter img{
+    height: 250px;
+    width: 300px;
+    border-radius: 20px 55px 20px 55px;
+    box-shadow: 10px 10px 50px 0.1px #cfcfcf;
+}
+
+main .ContainerText{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main .ContainerText h1 {
+    font-size: 18px;
+}
+
+#ContainerCard{
+    width: 100%;
+    padding:  20px 0;
+    display: flex;
+    background-color: #024385;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+
+#Boxtext{
+    width: 400px;
+}
+
+#Boxtext h1{
+    font-size: 20px;
+}
+
+#ContainerCardText{
+    width: 327px;
+  
+}
+
+#ContainerCardText h1{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E0E0E0;
+}
+
+#ContainerCardText p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E0E0E0;
+    text-align: justify;
+    
+}
+
+#ContainerCardNoticias{
+    width: 100%;
+    padding: 100px 0;
+    background-color: #013970;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 750px) {
+    #ContainerTop{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        height: 600px;
+
+    }
+
+    #ContainerCardNoticias{
+        width: 100%;
+        padding: 100px 0;
+        background-color: #013970;
+        display: flex;
+        gap: 20px;
+        
+    }
+
+    #ContainerCard{
+        padding:  100px 0;
+        
+    }
+
+    #ContainerLetter img{
+        height: 200px;
+        width: 250px;
+    }
+    
+
+}
+
+@media (max-width: 500px) {
+    #ContainerLetter{
+        width: 300px;
+    }
+
+  }
+
+@media (max-width: 800px) {
+    #ContainerCard{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+        gap: 100px;
+    }
+    
+  }
+
+  
+
+@media (max-width: 450px) {
+    #ContainerCardNoticias{
+        width: 100%;
+        padding: 100px 0;
+        background-color: #013970;
+        display: flex;
+        gap: 10px;
+  }
+}
