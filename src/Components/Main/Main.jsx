@@ -57,7 +57,10 @@ export function Main(){
                 
             </div>
             <div id="ContainerCardNoticias">
-                <CardNews />
+                <CardNews title="cavalo black" description="loremhttps://i.
+                // ibb.co/wQZVxxk/wave.pn
+                // ghttps://i.ibb.co/wQZVxxk/wave.pnghttps:/
+                // /i.ibb.co/wQZVxxk/wave.png" />
                 <CardNews />
                 <CardNews />
                 <CardNews />

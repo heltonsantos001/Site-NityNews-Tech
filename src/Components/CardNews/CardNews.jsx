@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 
-export function CardNews(){
+export function CardNews({title, description, image}){
 
   useEffect(() => {
     AOS.init(); 
@@ -14,15 +14,14 @@ export function CardNews(){
       <div data-aos-duration="1500" data-aos="fade-up" class="card">
  <div class="image"></div>
   <div class="content">
-    <a href="#">
+    <a href={image}>
       <span class="title">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        {title}
       </span>
     </a>
 
     <p class="desc">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-      dolores, possimus pariatur animi temporibus nesciunt praesentium 
+      {description} 
     </p>
 
     <a class="action" href="#">
