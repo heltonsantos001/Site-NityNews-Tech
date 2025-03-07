@@ -17,7 +17,7 @@ export function Linkedin(){
     </div>
   </div>
   <div class="textL">
-    <a class="iconL" href="https://freecodez.com/">
+    <a class="iconL" href="#">
       <div class="layerL">
         <span></span>
         <span></span>
